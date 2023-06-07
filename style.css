@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    font-family: Arial, sans-serif;
+    height: 130vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 138vh;
+    max-width: 900px;
+    margin: 0 auto;  
+}  
+
+.apply_box{
+    background-color: rgb(136, 113, 158);
+    margin: 0 auto;    
+    margin-top: 50px;
+    max-width: 650px;
+    border-radius: 15px;
+    padding: 5px 30px;
+    box-shadow: 4px 4px 4px rgba(1.2, 1.2, 1.2, 0.2);
+} 
+
+.apply_box h1{
+    margin: 25px 65px;
+    color: rgb(8, 0, 84);
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_control {
+    margin-bottom: 20px;
+}
+
+.form_control .gender {
+    font-weight: bold;
+}
+
+/* .form_control label {
+    margin-bottom: 10px;
+} */
+
+#job_role{
+    margin-bottom: 20px;
+}
+
+#cars {
+    margin-bottom: 20px;    
+}
+
+label {
+    font-weight: bold;
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+}
+
+/* input[type="radio"]{
+
+}  */
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"],
+select, 
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 65%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+input[type="date"],
+input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 55%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.btn_control {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+input[type="submit"], 
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color:  #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="reset"] {
+    background-color: #63125e;
+    margin-left: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: #82a429;
+}
+input[type="submit"]:hover {
+    background-color: #259420;
+}
